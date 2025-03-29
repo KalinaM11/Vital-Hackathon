@@ -1,3 +1,9 @@
-.panel-background {
-    background-color: #ADD8E6 !important; /* Light Blue with !important */
+.p-panel {
+    background-color: transparent !important;
+    border: none !important; /* Remove unwanted borders */
+    box-shadow: none !important; /* Remove shadow */
+}
+
+.p-panel .p-panel-content {
+    background-color: transparent !important;
 }

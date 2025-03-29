@@ -5,7 +5,7 @@ import { Button } from 'primereact/button';
 import { Message } from 'primereact/message';
 import './Tresult1-1.css'; // Re-enable CSS import
 
-export const TResult1_1Component = () => {
+export const TResult5_1Component = () => {
     const navigate = useNavigate();
 
     return (
@@ -39,7 +39,7 @@ export const TResult1_1Component = () => {
                             Nutrients from a variety of food groups support brain health, reducing stress and brain fog. </li>
                     </ul>
                     <div className="button-container">
-                        <Button label="Next" className="button" onClick={() => navigate('')} />
+                        <Button label="Next" className="button" onClick={() => navigate('/Thomas/Final')} />
                     </div>
                 </div>
             </div>

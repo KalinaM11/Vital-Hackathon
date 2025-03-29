@@ -33,7 +33,7 @@ export const TResult1_2Component = () => {
                     <li>Lack of excercise can affect physical health</li>
                 </ul>
                 <div className="button-container">
-                    <Button label="Next" className="button" onClick={() => navigate('')} />
+                    <Button label="Next" className="button" onClick={() => navigate('/Thomas/Scenario2')} />
                 </div>
             </div>
         </div>

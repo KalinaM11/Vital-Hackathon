@@ -33,7 +33,7 @@ export const TResult2_2Component = () => {
                     <li>Sleep allows you to concentrate more efficiently the next day</li>
                 </ul>
                 <div className="button-container">
-                    <Button label="Next" className="button" onClick={() => navigate('')} />
+                    <Button label="Next" className="button" onClick={() => navigate('/Thomas/Scenario3')} />
                 </div>
             </div>
         </div>

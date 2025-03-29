@@ -26,8 +26,8 @@ export const Tscene5Component = () => {
                     grilled chicken with rice. Thomas very much dislikes his vegetables and he's been avoiding the veggies 
                     this whole week. He’s feeling bloated and his stomach hurts. He hasn't pooped in dayzzzz. </p>
                     <div className = "choices">
-                        <Button label="Thomas avoids the vegetables once again however he opts for some pears and raspberries after dinner instead. " rounded/>
-                        <Button label="Thomas toughens up and eats his vegetables. " rounded/>
+                        <Button label="Thomas avoids the vegetables once again however he opts for some pears and raspberries after dinner instead. " rounded onClick={() => navigate("/Scenario5Result1")}/>
+                        <Button label="Thomas toughens up and eats his vegetables. " rounded onClick={() => navigate("/Scenario5Result2")}/>
                     </div>
                     </Card>
                 </div>

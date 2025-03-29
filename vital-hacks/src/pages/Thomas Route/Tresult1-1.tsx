@@ -34,7 +34,7 @@ export const TResult1_1Component = () => {
                             is a greta way to reduce stress. In doing so it also strenghtens our immune systems!</li>
                     </ul>
                     <div className="button-container">
-                        <Button label="Next" className="button" onClick={() => navigate('')} />
+                        <Button label="Next" className="button" onClick={() => navigate('/Thomas/Scenario2')} />
                     </div>
                 </div>
             </div>

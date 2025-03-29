@@ -33,8 +33,8 @@ export const Tscene1Component = () => {
                     The kids are back from school and their activities, and Emma and Johnny are asking Thomas to go ride their bikes
                     with them around the park with Dad.</p>
                     <div className = "choices">
-                        <Button label="Thomas should go play with his siblings until dinner" rounded/>
-                        <Button label="Thomas should stay in his room" rounded/>
+                        <Button label="Thomas should go play with his siblings until dinner" rounded onClick={() => navigate('/Scenario1Result1')}/>
+                        <Button label="Thomas should stay in his room" rounded onClick={() => navigate('/Scenario1Result2')}/>
                     </div>
                 </div>
 

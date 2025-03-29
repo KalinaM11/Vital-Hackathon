@@ -1,2 +1,0 @@
-# Vital-Hackathon
-Vital-Hackathon

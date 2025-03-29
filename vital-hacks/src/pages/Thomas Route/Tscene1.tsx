@@ -20,29 +20,27 @@ export const Tscene1Component = () => {
                     <p>This is where the status bar goes</p>
                 </div>
                 <div className = 'preface'>  
-                    <Card title="Setting the Scene">
+                    <h3> Setting the Scene</h3>
                     <p className="preface-text">
                     Thomas has an upcoming science fair, but his team is slacking on work. Their fair is in a week,
                      and they still have much to do. He also has an algebra quiz coming up around the same time, and 
                      he’s struggling with the material. Thomas is feeling overwhelmed and frustrated. He's been isolating himself 
                      and not spending time with his younger twin siblings Emma and Johnny.  </p>
-                     </Card>
                 </div>
 
                 <div className = 'scenario'>  
-                    <Card title="Scenario 1">
+                    <Card title="Scenario 1" className = "scenecard">
                     <p className="scenario-text">
                     The kids are back from school and their activities, and Emma and Johnny are asking Thomas to go ride their bikes
                     with them around the park with Dad.</p>
-                     </Card>
-
-                <Button label="Thomas should go play with his siblings until dinner" rounded/>
-                <Button label="Thomas should stay in his room" rounded/>
-
+                    <div className = "choices">
+                        <Button label="Thomas should go play with his siblings until dinner" rounded/>
+                        <Button label="Thomas should stay in his room" rounded/>
+                    </div>
+                    </Card>
                 </div>
 
             </div>
-
         </div>
     );
 };

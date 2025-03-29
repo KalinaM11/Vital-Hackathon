@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import boyImage from '../../images/boyHomePage.png';
 import girlImage from '../../images/girlHomePage.png'
 import { Card } from 'primereact/card';
+import { StatusBarComponent } from '../shared/statusBar/statusBar.component';
 
 export const HomePageComponent = () => {
     const navigate = useNavigate();
@@ -16,7 +17,7 @@ export const HomePageComponent = () => {
                 <div>
                     <img src={boyImage} alt="boyImage" style={{ height: '60vh', marginRight: '10px', padding: '10px', paddingLeft: '200px'}} />
                     <img src={girlImage} alt="girlImage" style={{ height: '60vh', marginRight: '10px', padding: '10px'}} />
-                </div> 
+                    </div> 
                 <div style={{paddingRight: '30px'}}>
                     <Card title="Welcome!" style={{background: '#ADD8E6'}}>
                       <p className="card-text">

@@ -20,7 +20,7 @@ export const Tscene3Component = () => {
                     <p>This is where the status bar goes</p>
                 </div>
                 <div className = 'scenario'>  
-                    <Card title="Scenario 1" className = "scenecard">
+                    <Card title="Scenario 3" className = "scenecard">
                     <p className="scenario-text">
                     Thomas is worried about not finishing his science fair project on time, so he skips lunch to work on. 
                     He also was late for school and didn’t have time to eat breakfast. Afterschool, Thomas and his friends 

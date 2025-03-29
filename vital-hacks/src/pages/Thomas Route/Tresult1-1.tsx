@@ -12,35 +12,32 @@ export const TResult1_1Component = () => {
         <div>
             <Header pageType="Outside Time" />
             <div className="result-page">
-            <div className="results1_1-container">
-                <img src={boyImage} alt="boyImage" className="result-image" />
-                <div>
-                <Message severity="success" text="Happiness +5%" /> <br></br>
-                <Message severity="success" text="Energy +5%" /> <br></br>
-                <Message severity="info" text="Food -10%" /> <br></br>
-                <Message severity="info" text="Hydration -10%" /> <br></br>
-            </div>
-            </div>
-            <div className='results1_1-content'>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum.
-                </p>
-                <h3>*insert facts*</h3>
-                <ul className="fact-list">
-                    <li>helps with</li>
-                    <li>helps with</li>
-                    <li>helps with</li>
-                </ul>
-                <div className="button-container">
-                    <Button label="Next" className="button" onClick={() => navigate('')} />
+                <div className="results1_1-container">
+                    <img src={boyImage} alt="boyImage" className="result-image" />
+                    <div>
+                        <Message severity="success" text="Happiness +5%" /> <br></br>
+                        <Message severity="success" text="Energy +15%" /> <br></br>
+                        <Message severity="info" text="Food -10%" /> <br></br>
+                        <Message severity="info" text="Hydration -15%" /> <br></br>
+                    </div>
+                </div>
+                <div className='results1_1-content'>
+                    <p>
+                        Thomas joined his dad and siblings on the bikes ride! His mood significantly improved. During this Thomas was able to 
+                        have a conversation with his dad about how his upcoming algebra quiz and science fair project has been stressing him out.
+                    </p>
+                    <h3>Did you know?</h3>
+                    <ul className="fact-list">
+                        <li>Vitamin D is linked to serotonine and doapmine regulation. Getting sunlight, a source of Vitamin D 
+                            is important for your mental well-being! </li>
+                        <li>Simply talking about our problems and sharing our negative emotions with someone we trust 
+                            is a greta way to reduce stress. In doing so it also strenghtens our immune systems!</li>
+                    </ul>
+                    <div className="button-container">
+                        <Button label="Next" className="button" onClick={() => navigate('')} />
+                    </div>
                 </div>
             </div>
-        </div>
         </div>
     );
 };

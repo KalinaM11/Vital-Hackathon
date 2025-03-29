@@ -23,7 +23,7 @@ function App() {
         <Route path="/SelectionPage" element={<SelectionPageComponent />} />
         <Route path="/Thomas/Scenario1" element={<Tscene1Component/>} />
         <Route path="/Thomas/Scenario2" element={<Tscene2Component/>}/>
-        <Route path="/Thomas/Scenario4.1" element={<Tscene2Component/>}/>
+        <Route path="/Thomas/Scenario4.1" element={<Tscene41Component/>}/>
         <Route path="/Thomas/Scenario5" element={<Tscene5Component/>}/>
       </Routes>
   </Router>

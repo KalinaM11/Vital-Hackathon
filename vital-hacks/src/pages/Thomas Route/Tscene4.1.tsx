@@ -32,8 +32,8 @@ export const Tscene41Component = () => {
 
 </p>
                     <div className = "choices">
-                        <Button label="Thomas should communicate his frustration with his friends" rounded/>
-                        <Button label=" Thomas should remove himself from this environment to take a breather and push through for the rest of the club" rounded/>
+                        <Button label="Thomas should communicate his frustration with his friends" rounded onClick={() => navigate("/Scenario4.1Result1")}/>
+                        <Button label=" Thomas should remove himself from this environment to take a breather and push through for the rest of the club" rounded onClick={() => navigate("/Scenario4.1Result2")}/>
                     </div>
                     </Card>
                 </div>

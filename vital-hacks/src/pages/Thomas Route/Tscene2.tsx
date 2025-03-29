@@ -26,8 +26,8 @@ export const Tscene2Component = () => {
                     After talking to his dad, his parents helped him with his algebra homework and helped him study over the weekend. Thomas is feeling confident for his quiz! Over the weekend, he also got a new game for his nintendo switch. 
 </p>
                     <div className = "choices">
-                        <Button label="Thomas should stay up and play his game a little longer" rounded/>
-                        <Button label=" Thomas should put away the switch and go to sleep" rounded/>
+                        <Button label="Thomas should stay up and play his game a little longer" rounded onClick={() => navigate('/Scenario2Result1')}/>
+                        <Button label=" Thomas should put away the switch and go to sleep" rounded onClick={() => navigate('/Scenario2Result2')}/>
                     </div>
                     </Card>
                 </div>

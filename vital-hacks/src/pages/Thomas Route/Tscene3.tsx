@@ -27,8 +27,8 @@ export const Tscene3Component = () => {
                     are at science club working on their project, except Thomas is the only one working and his friends are goofing off.  
                     Thomas is feeling irritated and can’t figure out the wiring of their robot.</p>
                     <div className = "choices">
-                        <Button label="Thomas should take a break and grab a snack from the vending machine" rounded/>
-                        <Button label="Thomas should communicate to his groupmate about carrying their weight on this project" rounded/>
+                        <Button label="Thomas should take a break and grab a snack from the vending machine" rounded onClick={() => navigate("/Scenario3Result1")}/>
+                        <Button label="Thomas should communicate to his groupmate about carrying their weight on this project" rounded onClick={() => navigate("/Scenario3Result2")}/>
                     </div>
                     </Card>
                 </div>

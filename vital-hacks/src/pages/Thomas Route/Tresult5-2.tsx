@@ -34,7 +34,7 @@ export const TResult5_2Component = () => {
                     <li>Veggies help boost the immune system, fighting off future illnesses</li>
                 </ul>
                 <div className="button-container">
-                    <Button label="Next" className="button" onClick={() => navigate('')} />
+                    <Button label="Next" className="button" onClick={() => navigate("/Thomas/Final")} />
                 </div>
             </div>
         </div>

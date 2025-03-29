@@ -5,7 +5,7 @@ import { Button } from 'primereact/button';
 import { Message } from 'primereact/message';
 import './Tresult1-1.css'; // Re-enable CSS import
 
-export const TResult2_1Component = () => {
+export const TResult42_1Component = () => {
     const navigate = useNavigate();
 
     return (
@@ -34,7 +34,7 @@ export const TResult2_1Component = () => {
                     <li>Taking a break improves concentration in the long run </li>
                 </ul>
                 <div className="button-container">
-                    <Button label="Next" className="button" onClick={() => navigate('')} />
+                    <Button label="Next" className="button" onClick={() => navigate("/Thomas/Scenario5")} />
                 </div>
             </div>
         </div>

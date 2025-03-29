@@ -5,7 +5,7 @@ import { Button } from 'primereact/button';
 import { Message } from 'primereact/message';
 import './Tresult1-1.css'; // Re-enable CSS import
 
-export const TResult2_1Component = () => {
+export const TResult3_2Component = () => {
     const navigate = useNavigate();
 
     return (
@@ -35,7 +35,7 @@ export const TResult2_1Component = () => {
                     <li>Hunger can lead to quick irrability and fast mood swings </li>
                 </ul>
                 <div className="button-container">
-                    <Button label="Next" className="button" onClick={() => navigate('')} />
+                    <Button label="Next" className="button" onClick={() => navigate('/Thomas/Scenario4.2')} />
                 </div>
             </div>
         </div>

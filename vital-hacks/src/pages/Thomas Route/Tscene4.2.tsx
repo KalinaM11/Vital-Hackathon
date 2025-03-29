@@ -5,7 +5,7 @@ import boyImage from '../../images/boyHomePage-removebg-preview.png';
 import { Card } from 'primereact/card';
 import { Button } from 'primereact/button';
 
-export const Tscene2Component = () => {
+export const Tscene42Component = () => {
     const navigate = useNavigate();
 
     return(
@@ -21,13 +21,14 @@ export const Tscene2Component = () => {
                 </div>
 
                 <div className = 'scenario'>  
-                    <Card title="Scenario 2" className = "scenecard">
+                    <Card title="Scenario 4" className = "scenecard">
                     <p className="scenario-text">
-                    After talking to his dad, his parents helped him with his algebra homework and helped him study over the weekend. Thomas is feeling confident for his quiz! Over the weekend, he also got a new game for his nintendo switch. 
+                    Thomas talked to his friends, and now they are working together on the wiring issue. However, Thomas starts having bad headaches and feels dizzy. His friends are discussing things and he can’t seem to focus. His hands are also shaky. 
+
 </p>
                     <div className = "choices">
-                        <Button label="Thomas should stay up and play his game a little longer" rounded/>
-                        <Button label=" Thomas should put away the switch and go to sleep" rounded/>
+                        <Button label="Thomas should take a break to drink water and eat some of his packed lunchs" rounded/>
+                        <Button label="Thomas should push through, since the science club ends in 20 minutes" rounded/>
                     </div>
                     </Card>
                 </div>

@@ -5,7 +5,7 @@ import boyImage from '../../images/boyHomePage-removebg-preview.png';
 import { Card } from 'primereact/card';
 import { Button } from 'primereact/button';
 
-export const Tscene3Component = () => {
+export const Tscene5Component = () => {
     const navigate = useNavigate();
 
     return(
@@ -20,15 +20,14 @@ export const Tscene3Component = () => {
                     <p>This is where the status bar goes</p>
                 </div>
                 <div className = 'scenario'>  
-                    <Card title="Scenario 3" className = "scenecard">
+                    <Card title="Scenario 5" className = "scenecard">
                     <p className="scenario-text">
-                    Thomas is worried about not finishing his science fair project on time, so he skips lunch to work on. 
-                    He also was late for school and didn’t have time to eat breakfast. Afterschool, Thomas and his friends 
-                    are at science club working on their project, except Thomas is the only one working and his friends are goofing off.  
-                    Thomas is feeling irritated and can’t figure out the wiring of their robot.</p>
+                    The science fair project is all done! It’s dinner time and tonight's menu is roasted vegetables and 
+                    grilled chicken with rice. Thomas very much dislikes his vegetables and he's been avoiding the veggies 
+                    this whole week. He’s feeling bloated and his stomach hurts. He hasn't pooped in dayzzzz. </p>
                     <div className = "choices">
-                        <Button label="Thomas should take a break and grab a snack from the vending machine" rounded/>
-                        <Button label="Thomas should communicate to his groupmate about carrying their weight on this project" rounded/>
+                        <Button label="Thomas avoids the vegetables once again however he opts for some pears and raspberries after dinner instead. " rounded/>
+                        <Button label="Thomas toughens up and eats his vegetables. " rounded/>
                     </div>
                     </Card>
                 </div>

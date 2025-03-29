@@ -9,6 +9,12 @@ import { StatusProvider } from './context/context';
 import { Tscene3Component } from './pages/Thomas Route/Tscene3';
 import {Tscene2Component} from "./pages/Thomas Route/Tscene2";
 import {TfinalComponent} from "./pages/Thomas Route/TFinal";
+import {Tscene41Component} from "./pages/Thomas Route/Tscene4.1";
+import {Tscene42Component} from "./pages/Thomas Route/Tscene4.2";
+import { Tscene5Component } from './pages/Thomas Route/Tscene5';
+import {TResult1_1Component } from "./pages/Thomas Route/Tresult1-1"
+import {TResult2_1Component } from "./pages/Thomas Route/Tresult2-1"
+import {TResult3_1Component } from "./pages/Thomas Route/Tresult3-1"
  
 function App() {
   return (
@@ -23,6 +29,13 @@ function App() {
         <Route path="/Thomas/Scenario1" element={<Tscene1Component/>} />
         <Route path="/Thomas/Scenario2" element={<Tscene2Component/>}/>
         <Route path="/Thomas/Final" element={<TfinalComponent/>}/>
+        <Route path="/Thomas/Scenario4.1" element={<Tscene41Component/>}/>
+        <Route path="/Thomas/Scenario4.2" element={<Tscene42Component/>}/>
+        <Route path="/Thomas/Scenario5" element={<Tscene5Component/>}/>
+        <Route path="/Scenario1Result1" element={<TResult1_1Component />} />
+        <Route path="/Scenario2Result1" element={<TResult2_1Component />} />
+        <Route path="/Scenario3Result1" element={<TResult3_1Component />} />
+        
       </Routes>
   </Router>
   </StatusProvider>

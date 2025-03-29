@@ -10,17 +10,19 @@ export const TResult1_1Component = () => {
 
     return (
         <div>
-            <Header pageType="" />
+            <Header pageType="Outside Time" />
             <div className="result-page">
             <div className="results1_1-container">
                 <img src={boyImage} alt="boyImage" className="result-image" />
                 <div>
-                <Message severity="success" text="Success Message" /> <br></br>
+                <Message severity="success" text="Happiness +5%" /> <br></br>
+                <Message severity="success" text="Energy +5%" /> <br></br>
+                <Message severity="info" text="Food -10%" /> <br></br>
+                <Message severity="info" text="Hydration -10%" /> <br></br>
                 <Message severity="warn" text="Warning Message" />
             </div>
             </div>
             <div className='results1_1-content'>
-                <h1>*insert title*</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud

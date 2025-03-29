@@ -1,0 +1,27 @@
+
+.b{
+    display: grid;
+    grid-template-areas:
+    "setting avatar";
+    grid-template-columns: 2fr 1fr;
+    background-color:#2196F3;
+    height: 100%; 
+}
+
+.conclusion {
+    grid-area: setting;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding:60px;
+    background-color: white;}
+
+.image {
+   grid-area: avatar;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+

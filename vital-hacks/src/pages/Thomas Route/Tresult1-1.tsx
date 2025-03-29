@@ -19,7 +19,6 @@ export const TResult1_1Component = () => {
                 <Message severity="success" text="Energy +5%" /> <br></br>
                 <Message severity="info" text="Food -10%" /> <br></br>
                 <Message severity="info" text="Hydration -10%" /> <br></br>
-                <Message severity="warn" text="Warning Message" />
             </div>
             </div>
             <div className='results1_1-content'>

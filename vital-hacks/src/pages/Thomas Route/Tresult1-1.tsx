@@ -1,9 +1,10 @@
 import { Header } from '../shared/header/header.component';
-import boyImage from '../../images/boyHomePage.png';
+import boyImage from '../../images/rlyhapy-removebg-preview.png';
 import { useNavigate } from 'react-router-dom';
 import { Button } from 'primereact/button';
 import { Message } from 'primereact/message';
 import './Tresult1-1.css'; // Re-enable CSS import
+
 
 export const TResult1_1Component = () => {
     const navigate = useNavigate();

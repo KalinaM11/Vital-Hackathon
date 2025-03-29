@@ -5,6 +5,7 @@ import boyImage from '../../images/boyHomePage-removebg-preview.png';
 import { Card } from 'primereact/card';
 import { Button } from 'primereact/button';
 
+
 export const Tscene3Component = () => {
     const navigate = useNavigate();
 

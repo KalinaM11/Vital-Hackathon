@@ -12,6 +12,7 @@ import {Tscene41Component} from "./pages/Thomas Route/Tscene4.1";
 import {Tscene42Component} from "./pages/Thomas Route/Tscene4.2";
 import { Tscene5Component } from './pages/Thomas Route/Tscene5';
 import {TResult1_1Component } from "./pages/Thomas Route/Tresult1-1"
+import {TResult2_1Component } from "./pages/Thomas Route/Tresult2-1"
  
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/Thomas/Scenario4.2" element={<Tscene42Component/>}/>
         <Route path="/Thomas/Scenario5" element={<Tscene5Component/>}/>
         <Route path="/Scenario1Result1" element={<TResult1_1Component />} />
+        <Route path="/Scenario2Result1" element={<TResult2_1Component />} />
       </Routes>
   </Router>
   </StatusProvider>

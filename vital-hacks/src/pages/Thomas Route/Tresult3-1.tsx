@@ -15,7 +15,7 @@ export const TResult3_1Component = () => {
             <div className="results1_1-container">
                 <img src={boyImage} alt="boyImage" className="result-image" />
                 <div>
-                <Message severity="warn" text="Happiness -15%" /> <br></br>
+                <Message severity="warn" text="Happiness +5%" /> <br></br>
                 <Message severity="success" text="Energy +10%" /> <br></br>
                 <Message severity="success" text="Food +20%" /> <br></br>
                 <Message severity="info" text="Hydration +0%" /> <br></br>

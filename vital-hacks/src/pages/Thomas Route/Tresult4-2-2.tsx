@@ -15,23 +15,22 @@ export const TResult3_1Component = () => {
             <div className="results1_1-container">
                 <img src={boyImage} alt="boyImage" className="result-image" />
                 <div>
-                <Message severity="warn" text="Happiness -15%" /> <br></br>
-                <Message severity="success" text="Energy +10%" /> <br></br>
-                <Message severity="success" text="Food +20%" /> <br></br>
+                <Message severity="warn" text="Happiness -10%" /> <br></br>
+                <Message severity="warn" text="Energy -20%" /> <br></br>
+                <Message severity="warn" text="Food -20%" /> <br></br>
                 <Message severity="info" text="Hydration +0%" /> <br></br>
                 {/* <Message severity="warn" text="Warning Message" /> */}
             </div>
             </div>
             <div className='results1_1-content'>
                 <p>
-                    Thomas feels a lot better after having a granola bar, and he feels less irritated. But when he comes 
-                    back to his group he finds that they are on their way out becuase they claim they have to go home and 
-                    now Thomas is left to finish the project all by himself. 
+                   Thomas is really having trouble concentrating and feels lightheaded but they finished the project!
                 </p>
                 <h3>Did you know?</h3>
                 <ul className="fact-list">
-                    <li> Skipping meals can lead to various negative consequences, including slowed metabolism, nutrient deficiencies, blood sugar fluctuations, and potentially increased risk of chronic diseases, as well as affecting energy levels, mood, and digestion </li>
-                        <li>Avoiding communication can lead to misunderstandings, strained relationships, and missed opportunities, while open and effective communication fosters understanding, builds trust, and promotes positive outcomes in personal and professional settings. </li>
+                    <li> Eating frequently, with regular meal timing and balanced nutrition, is crucial for maintaining overall health, supporting energy levels, and potentially reducing the risk of chronic diseases like heart disease and type 2 diabetes </li>
+                        <li>Regular meals provide a steady stream of energy, preventing energy crashes and promoting sustained focus and productivity throughout the day. 
+                        </li>
                    
                 </ul>
                 <div className="button-container">

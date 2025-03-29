@@ -8,3 +8,16 @@
     gap: 20px;
     height: 65vh;
 }
+
+.button-container {
+    display: flex;            /* Enables Flexbox */
+    justify-content: center;  /* Centers horizontally */
+    align-items: center;      /* Centers vertically */
+    height: 100%; 
+}
+
+.button {
+    font-size: 1.5rem; 
+    padding: 1rem 2rem; 
+    border-radius: 8px; 
+}

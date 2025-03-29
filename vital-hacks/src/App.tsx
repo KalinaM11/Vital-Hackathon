@@ -33,6 +33,7 @@ function App() {
         <Route path="/Scenario1Result1" element={<TResult1_1Component />} />
         <Route path="/Scenario2Result1" element={<TResult2_1Component />} />
         <Route path="/Scenario3Result1" element={<TResult3_1Component />} />
+        
       </Routes>
   </Router>
   </StatusProvider>

@@ -24,7 +24,9 @@ export const TResult3_1Component = () => {
             </div>
             <div className='results1_1-content'>
                 <p>
-                    Thomas feels a lot better after having a granola bar, and he feels less irritated. 
+                    Thomas feels a lot better after having a granola bar, and he feels less irritated. But when he comes 
+                    back to his group he finds that they are on their way out becuase they claim they have to go home and 
+                    now Thomas is left to finish the project all by himself. 
                 </p>
                 <h3>Did you know?</h3>
                 <ul className="fact-list">

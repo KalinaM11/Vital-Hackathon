@@ -1,0 +1,25 @@
+.body{
+    display: grid;
+    grid-template-areas:
+    "setting avatar status"
+    "scenario scenario scenario"
+    "choice choice choice";
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    background-color: #2196F3;
+}
+
+img{
+    grid-area: avatar;
+}
+
+.choices{
+    grid-area: choice;
+}
+
+.statusbar {
+    grid-area: status;
+  }
+
+.scenario {
+    grid-area: scenario;}

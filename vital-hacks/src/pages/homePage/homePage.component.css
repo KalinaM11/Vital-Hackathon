@@ -3,13 +3,15 @@
 .box-container {
     width: 100%;
     padding: 20px;
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
     gap: 20px;
     height: 65vh;
+    padding-top: 70px;
 }
 
 .button-container {
+    padding-top: 20px;
     display: flex;            /* Enables Flexbox */
     justify-content: center;  /* Centers horizontally */
     align-items: center;      /* Centers vertically */
@@ -17,7 +19,17 @@
 }
 
 .button {
-    font-size: 1.5rem; 
-    padding: 1rem 2rem; 
+    font-size: 1.25rem; 
+    padding: 1rem 1.5rem; 
     border-radius: 8px; 
 }
+
+.card-text {
+    font-size: 20px;
+}
+
+.p-card-title {
+    font-size: 30px;
+    text-align: center; 
+}
+

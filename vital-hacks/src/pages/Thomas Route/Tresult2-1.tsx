@@ -1,5 +1,5 @@
 import { Header } from '../shared/header/header.component';
-import boyImage from '../../images/boyHomePage.png';
+import boyImage from '../../images/tired-removebg-preview.png';
 import { useNavigate } from 'react-router-dom';
 import { Button } from 'primereact/button';
 import { Message } from 'primereact/message';

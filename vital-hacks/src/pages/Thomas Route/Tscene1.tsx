@@ -2,7 +2,6 @@ import {Header} from '../shared/header/header.component';
 import { useNavigate } from 'react-router-dom';
 import './Tscene1.css';
 import boyImage from '../../images/boyHomePage-removebg-preview.png';
-import { Card } from 'primereact/card';
 import { Button } from 'primereact/button';
 
 export const Tscene1Component = () => {
@@ -28,8 +27,8 @@ export const Tscene1Component = () => {
                      and not spending time with his younger twin siblings Emma and Johnny.  </p>
                 </div>
 
-                <div className = 'scenario'>  
-                    <Card title="Scenario 1" className = "scenecard">
+                <div className = 'scenario'> 
+                    <h3>Scenario 1</h3> 
                     <p className="scenario-text">
                     The kids are back from school and their activities, and Emma and Johnny are asking Thomas to go ride their bikes
                     with them around the park with Dad.</p>
@@ -37,7 +36,6 @@ export const Tscene1Component = () => {
                         <Button label="Thomas should go play with his siblings until dinner" rounded/>
                         <Button label="Thomas should stay in his room" rounded/>
                     </div>
-                    </Card>
                 </div>
 
             </div>

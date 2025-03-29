@@ -5,7 +5,7 @@ import { Button } from 'primereact/button';
 import { Message } from 'primereact/message';
 import './Tresult1-1.css'; // Re-enable CSS import
 
-export const TResult2_1Component = () => {
+export const TResult3_1Component = () => {
     const navigate = useNavigate();
 
     return (
@@ -15,25 +15,23 @@ export const TResult2_1Component = () => {
             <div className="results1_1-container">
                 <img src={boyImage} alt="boyImage" className="result-image" />
                 <div>
-                <Message severity="success" text="Happiness +5%" /> <br></br>
-                <Message severity="warn" text="Energy -30%" /> <br></br>
-                <Message severity="info" text="Food -10%" /> <br></br>
-                <Message severity="info" text="Hydration -10%" /> <br></br>
+                <Message severity="warn" text="Happiness -15%" /> <br></br>
+                <Message severity="success" text="Energy +10%" /> <br></br>
+                <Message severity="success" text="Food +20%" /> <br></br>
+                <Message severity="info" text="Hydration +0%" /> <br></br>
                 {/* <Message severity="warn" text="Warning Message" /> */}
             </div>
             </div>
             <div className='results1_1-content'>
                 <p>
-                    Thomas had fun playing his video game but is now exhausted and is going to sleep. He regrets now going 
-                    to bed earlier because he knows he will be more tired tomorrow. 
+                    Thomas feels a lot better after having a granola bar, and he feels less irritated. But when he comes 
+                    back to his group he finds that they are on their way out becuase they claim they have to go home and 
+                    now Thomas is left to finish the project all by himself. 
                 </p>
                 <h3>Did you know?</h3>
                 <ul className="fact-list">
-                    <li> Sleep deficiency is linked to many chronic health problems, including heart disease, kidney disease, high blood pressure, diabetes, stroke, obesity, and depression. </li>
-                        <li>Sleep deficiency is also linked to a higher chance of injury in adults, teens, and children</li>
-                    <li>Sleep helps regulate hormones that control appetite and metabolism, reducing the risk of obesity and diabetes. </li>
-                    <li>Sleep also helps regulate the production of hormones like serotonin and dopamine, promoting feelings of well-being and reducing the risk of depression and anxiety. </li>
-                    <li>Adequate sleep lowers blood pressure, reduces stress on the heart, and improves cardiovascular health. </li>
+                    <li> Skipping meals can lead to various negative consequences, including slowed metabolism, nutrient deficiencies, blood sugar fluctuations, and potentially increased risk of chronic diseases, as well as affecting energy levels, mood, and digestion </li>
+                        <li>Avoiding communication can lead to misunderstandings, strained relationships, and missed opportunities, while open and effective communication fosters understanding, builds trust, and promotes positive outcomes in personal and professional settings. </li>
                    
                 </ul>
                 <div className="button-container">

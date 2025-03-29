@@ -4,8 +4,11 @@ import girlImage from '../../images/girlHomePage-removebg-preview.png';
 import { Card } from 'primereact/card';
 import './SelectionPage.css';
 import { Button } from 'primereact/button';
+import { useNavigate } from 'react-router-dom';
 
 export const SelectionPageComponent = () => {
+    const navigate = useNavigate(); 
+
     return (
         <div>
             <Header pageType="Select a Character!" />
@@ -62,7 +65,7 @@ export const SelectionPageComponent = () => {
                                     
                                 </div>
                                 <p> Click below to follow Thomas through his daily life activities for a few days!</p>
-                                <Button> Play as Thomas</Button>
+                                <Button onClick = {() => navigate("/Thomas/Scenario1")}> Play as Thomas</Button>
                             </Card>
                         </div>
                     </div>

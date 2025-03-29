@@ -5,32 +5,32 @@ import { Button } from 'primereact/button';
 import { Message } from 'primereact/message';
 import './Tresult1-1.css'; // Re-enable CSS import
 
-export const TResult1_2Component = () => {
+export const TResult2_2Component = () => {
     const navigate = useNavigate();
 
     return (
         <div>
-            <Header pageType="Stay in room" />
+            <Header pageType="Full Night's Sleep" />
             <div className="result-page">
             <div className="results1_1-container">
                 <img src={boyImage} alt="boyImage" className="result-image" />
                 <div>
-                <Message severity="warn" text="Happiness -15%" /> <br></br>
-                <Message severity="info" text="Energy +5%" /> <br></br>
-                <Message severity="info" text="Food -5%" /> <br></br>
+                <Message severity="success" text="Happiness +15%" /> <br></br>
+                <Message severity="success" text="Energy +40%" /> <br></br>
+                <Message severity="info" text="Food -10%" /> <br></br>
                 <Message severity="info" text="Hydration -10%" /> <br></br>
             </div>
             </div>
             <div className='results1_1-content'>
                 <p>
-                    Staying inside made Thomas sad because he watched his siblings have fun from the window in his room. 
-                    He also began to feel iritated because he did not have the sun on his skin or the fresh air that the outdoors provides.
+                    Thomas awoke feeling fully rested because he chose to get a full amount of sleep before school. 
+                    He ends up doing amazing on his algrebra quiz.
                 </p>
                 <h3>*Did you know?*</h3>
                 <ul className="fact-list">
-                    <li>Being cooped up inside can lead to feelings of "cabin fever"</li>
-                    <li>Lack of socialization can lead to cognitive decline and mental health issues</li>
-                    <li>Lack of excercise can affect physical health</li>
+                    <li>Having a good nights rest is important to cognitive function the next day</li>
+                    <li>Sleep is important for developing memory</li>
+                    <li>Sleep allows you to concentrate more efficiently the next day</li>
                 </ul>
                 <div className="button-container">
                     <Button label="Next" className="button" onClick={() => navigate('')} />

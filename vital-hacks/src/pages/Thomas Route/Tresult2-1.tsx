@@ -10,7 +10,7 @@ export const TResult2_1Component = () => {
 
     return (
         <div>
-            <Header pageType="Outside Time" />
+            <Header pageType="Video Games" />
             <div className="result-page">
             <div className="results1_1-container">
                 <img src={boyImage} alt="boyImage" className="result-image" />

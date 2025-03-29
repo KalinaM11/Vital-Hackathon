@@ -39,7 +39,6 @@ export const TfinalComponent = () => {
                             </ul>
                         </li>
 
-
                         <li>Making sure to eat throughout the day
                             <ul>
                                 <li>Eating regular, balanced meals prevents energy crashes, supports metabolism, and reduces long-term health risks.

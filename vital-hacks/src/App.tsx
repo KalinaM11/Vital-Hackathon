@@ -8,6 +8,7 @@ import {Tscene1Component} from './pages/Thomas Route/Tscene1';
 import { StatusProvider } from './context/context';
 import {Tscene3Component } from './pages/Thomas Route/Tscene3';
 import {Tscene2Component} from "./pages/Thomas Route/Tscene2";
+import {TfinalComponent} from "./pages/Thomas Route/TFinal";
 import {Tscene41Component} from "./pages/Thomas Route/Tscene4.1";
 import {Tscene42Component} from "./pages/Thomas Route/Tscene4.2";
 import {Tscene5Component } from './pages/Thomas Route/Tscene5';
@@ -23,7 +24,6 @@ import {TResult42_1Component } from "./pages/Thomas Route/Tresult4-2-1";
 import {TResult42_2Component } from "./pages/Thomas Route/Tresult4-2-2";
 import {TResult5_1Component } from "./pages/Thomas Route/Tresult5-1";
 import {TResult5_2Component } from "./pages/Thomas Route/Tresult5-2";
-import { TfinalComponent } from './pages/Thomas Route/TFinal';
  
 function App() {
   return (

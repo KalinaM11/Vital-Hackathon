@@ -17,7 +17,6 @@
     padding:60px;
     background-color: white;}
 
-
 .image {
    grid-area: avatar;
    display: flex;

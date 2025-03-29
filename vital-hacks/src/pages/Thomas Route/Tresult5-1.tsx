@@ -10,32 +10,33 @@ export const TResult1_1Component = () => {
 
     return (
         <div>
-            <Header pageType="Communication is Key" />
+            <Header pageType="Find Alternatives" />
             <div className="result-page">
                 <div className="results1_1-container">
                     <img src={boyImage} alt="boyImage" className="result-image" />
                     <div>
                         <Message severity="success" text="Happiness +10%" /> <br></br>
-                        <Message severity="success" text="Energy +2%" /> <br></br>
+                        <Message severity="success" text="Energy +5%" /> <br></br>
+                        <Message severity="success" text="Food +10%" /> <br></br>
                     </div>
                 </div>
                 <div className='results1_1-content'>
                     <p>
-                    Thomas, overwhelmed by the noise and frustration, accidentally snaps the wire and starts crying. 
-                    His friends notice and ask what’s wrong, and he finally admits he’s struggling to focus and feels like 
-                    he’s the only one putting in effort. Realizing their mistake, his friends apologize and promise to be more 
-                    considerate, reassuring him that they’ll work through it together.
+                    Thomas pushes the roasted vegetables around his plate, once again avoiding them as he focuses on the 
+                    grilled chicken and rice. Though he skips the veggies, he decides to have some pears and raspberries 
+                    after dinner, hoping to ease his stomach discomfort. As he finishes the sweet, juicy fruit, he wonders 
+                    if it might finally help get things moving.
                     </p>
                     <h3>Did you know?</h3>
                     <ul className="fact-list">
-                        <li> Sharing feelings helps prevent emotional bottling, which can lead to anxiety or depression. 
-                            It fosters a sense of relief and emotional well-being. </li>
-                        <li>Opening up helps Thomas feel less isolated, as he realizes he’s not alone in his experiences 
-                            and that his friends care. By vocalizing his frustrations, Thomas gains better insight into 
-                            his own emotional triggers, which can help him manage stress more effectively in the future.
-                        </li>
-                        <li>Simply talking about our problems and sharing our negative emotions with someone we trust 
-                            is a greta way to reduce stress. In doing so it also strenghtens our immune systems!</li>
+                        <li>Lack of fiber from vegetables can lead to constipation, bloating, and irregular bowel movements. 
+                            Including fiber-rich foods like vegetables aids in digestion and promotes a healthy gut microbiome.</li>
+                        <li>Vegetables provide essential vitamins and antioxidants that support immune function, and avoiding 
+                            them may increase the risk of illness!!</li>
+                        <li>The lack of essential nutrients from vegetables can lead to fatigue and reduced cognitive function. 
+                            As well as higher risks of heart disease, diabetes, and certain cancers.</li>
+                        <li>Balanced meals help regulate appetite and prevent overeating by providing essential nutrients and fiber.
+                            Nutrients from a variety of food groups support brain health, reducing stress and brain fog. </li>
                     </ul>
                     <div className="button-container">
                         <Button label="Next" className="button" onClick={() => navigate('')} />

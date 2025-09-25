@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import boyImage from '../../images/boyHomePage.png';
 import girlImage from '../../images/girlHomePage.png'
 import { Card } from 'primereact/card';
-import { StatusBarComponent } from '../shared/statusBar/statusBar.component';
+// import { StatusBarComponent } from '../shared/statusBar/statusBar.component';
 
 export const HomePageComponent = () => {
     const navigate = useNavigate();

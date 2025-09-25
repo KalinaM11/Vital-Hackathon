@@ -12,18 +12,18 @@ import {TfinalComponent} from "./pages/Thomas Route/TFinal";
 import {Tscene41Component} from "./pages/Thomas Route/Tscene4.1";
 import {Tscene42Component} from "./pages/Thomas Route/Tscene4.2";
 import {Tscene5Component } from './pages/Thomas Route/Tscene5';
-import {TResult1_1Component } from "./pages/Thomas Route/Tresult1-1"
-import {TResult1_2Component } from './pages/Thomas Route/Tresult1-2';
-import { TResult2_1Component } from "./pages/Thomas Route/Tresult2-1";
-import {TResult2_2Component } from "./pages/Thomas Route/Tresult2-2";
-import {TResult3_1Component } from "./pages/Thomas Route/Tresult3-1";
-import {TResult3_2Component } from "./pages/Thomas Route/Tresult3-2";
-import {TResult41_1Component } from "./pages/Thomas Route/Tresult4-1-1";
-import {TResult41_2Component } from "./pages/Thomas Route/Tresult4-1-2";
-import {TResult42_1Component } from "./pages/Thomas Route/Tresult4-2-1";
-import {TResult42_2Component } from "./pages/Thomas Route/Tresult4-2-2";
-import {TResult5_1Component } from "./pages/Thomas Route/Tresult5-1";
-import {TResult5_2Component } from "./pages/Thomas Route/Tresult5-2";
+import { TResult1_1Component as TResult11Component } from "./pages/Thomas Route/Tresult1-1"
+import { TResult1_2Component as TResult12Component } from './pages/Thomas Route/Tresult1-2';
+import { TResult2_1Component as TResult21Component } from "./pages/Thomas Route/Tresult2-1";
+import { TResult2_2Component as TResult22Component } from "./pages/Thomas Route/Tresult2-2";
+import { TResult3_1Component as TResult31Component } from "./pages/Thomas Route/Tresult3-1";
+import { TResult3_2Component as TResult32Component } from "./pages/Thomas Route/Tresult3-2";
+import { TResult41_1Component as TResult411Component } from "./pages/Thomas Route/Tresult4-1-1";
+import { TResult41_2Component as TResult412Component } from "./pages/Thomas Route/Tresult4-1-2";
+import { TResult42_1Component as TResult421Component } from "./pages/Thomas Route/Tresult4-2-1";
+import { TResult42_2Component as TResult422Component } from "./pages/Thomas Route/Tresult4-2-2";
+import { TResult5_1Component as TResult51Component } from "./pages/Thomas Route/Tresult5-1";
+import { TResult5_2Component as TResult52Component } from "./pages/Thomas Route/Tresult5-2";
  
 function App() {
   return (
@@ -41,25 +41,25 @@ function App() {
         <Route path="/Thomas/Scenario4.2" element={<Tscene42Component/>}/>
         <Route path="/Thomas/Scenario5" element={<Tscene5Component/>}/>
         
-        <Route path="/Scenario1Result1" element={<TResult1_1Component />} />
-        <Route path="/Scenario1Result2" element={<TResult1_2Component />} />
+        <Route path="/Scenario1Result1" element={<TResult11Component />} />
+        <Route path="/Scenario1Result2" element={<TResult12Component />} />
 
-        <Route path="/Scenario2Result1" element={<TResult2_1Component />} />
-        <Route path="/Scenario2Result2" element={<TResult2_2Component />} />
+        <Route path="/Scenario2Result1" element={<TResult21Component />} />
+        <Route path="/Scenario2Result2" element={<TResult22Component />} />
 
-        <Route path="/Scenario3Result1" element={<TResult3_1Component />} />
-        <Route path="/Scenario3Result2" element={<TResult3_2Component />} />
+        <Route path="/Scenario3Result1" element={<TResult31Component />} />
+        <Route path="/Scenario3Result2" element={<TResult32Component />} />
 
-        <Route path="/Scenario4.1Result1" element={<TResult41_1Component />} />
-        <Route path="/Scenario4.1Result2" element={<TResult41_2Component />} />
+        <Route path="/Scenario4.1Result1" element={<TResult411Component />} />
+        <Route path="/Scenario4.1Result2" element={<TResult412Component />} />
 
-        <Route path="/Scenario4.2Result1" element={<TResult42_1Component />} />
-        <Route path="/Scenario4.2Result2" element={<TResult42_2Component />} />
+        <Route path="/Scenario4.2Result1" element={<TResult421Component />} />
+        <Route path="/Scenario4.2Result2" element={<TResult422Component />} />
 
-        <Route path="/Scenario5Result1" element={<TResult5_1Component />} />
-        <Route path="/Scenario5Result2" element={<TResult5_2Component />} />
+        <Route path="/Scenario5Result1" element={<TResult51Component />} />
+        <Route path="/Scenario5Result2" element={<TResult52Component />} />
 
-        <Route path="/Scenario3Result1" element={<TResult3_1Component />} />
+        <Route path="/Scenario3Result1" element={<TResult31Component />} />
 
         <Route path="/Thomas/Final" element={<TfinalComponent />} />
         
